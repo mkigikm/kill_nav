@@ -1,0 +1,21 @@
+{
+  "mainfest_version": 2,
+
+  "name": "Kill Fixed Navbar",
+  "description": "Get rid of annoying fixed navbars, and take back your ability to use the spacebar to change the viewport.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["kill_nav.js"],
+    "persistent": false
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+
+}
